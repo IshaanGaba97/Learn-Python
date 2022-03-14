@@ -49,6 +49,7 @@ from traceback import print_tb
 e = 10                     #int
 f = "10"                   #string
 
+
 # typecasting
 # convert no. string to int
 print(int(f))
@@ -72,7 +73,6 @@ print(var3)
 str1 = "This is a"
 str2 = " new car"
 print(str1 + str2)
-
 
 
 name1 = "ElonMusk"
@@ -181,11 +181,14 @@ while(index<20):
     print(index)
     index = index + 1
 
+
+#function with no return and values 
 def greet():
     print("Good Morning!")
 
 greet()
 
+# function with return and values 
 def sum(a, b):
     c = a + b
     return c
@@ -193,11 +196,13 @@ def sum(a, b):
 d = sum(12, 44)
 print(d)
 
+
+# object oriented programming
 class Employee:
     def __init__(self, gname, gsalary):
         self.name = gname
         self.salary = gsalary
 
-obj = Employee("Tokyo", 10000)
+obj = Employee("Tokyo", 10000)                #object initialization
 print(obj.name)
 print(obj.salary)
